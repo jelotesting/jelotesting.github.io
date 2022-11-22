@@ -1,0 +1,124 @@
+.home_cards1{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 233px 233px;
+	column-gap: 16px;
+	row-gap: 16px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 0px;
+	margin-top: 250px;
+	margin-left: 50px;
+	margin-right: 50px;
+ }
+ .hm_card{
+	position: relative;
+	cursor: pointer;
+	border-radius: 10px;
+ }
+ .box img {
+	width: 100%;
+	height: 233px;
+	object-fit: cover;
+	border-radius: 10px;
+ }
+ .box_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:flex-end;
+	transition: all 0.2s ease-in-out;
+	background: transparent;
+	opacity: 1;
+ }
+
+ 
+.box_details:hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:flex-end;
+	transition: all 0.2s ease-in-out;
+	background: rgba(0, 0, 0, 0.5);
+	opacity: 1;
+ }
+
+ .play-icon{
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 6px 20px 6px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	border: 1px solid #00000060;
+ }
+
+ .hm_card:hover .box_details{
+	opacity: 1;
+ }
+
+
+ @media screen and (max-width: 576px) {
+
+	.home_cards1{
+		width: 100%;
+		display: inline-block;
+		margin: 0px;
+		margin-top: 220px;
+		justify-content: center;
+		align-items: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	 }
+        
+	.box img {
+	    width: 100%;
+	    height: 210px;
+	    object-fit: cover;
+	    margin-bottom: 20px;
+	}
+
+	.box_details{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 95%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content:flex-end;
+		transition: all 0.2s ease-in-out;
+		background: transparent;
+		opacity: 1;
+	 }
+
+	 .box_details:hover{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 95%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content:flex-end;
+		transition: all 0.2s ease-in-out;
+		background: transparent;
+		opacity: 1;
+	 }
+ }

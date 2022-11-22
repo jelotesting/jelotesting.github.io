@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="stylesheet" href="./css/animation.css">
+		<link rel="stylesheet" href="./css/responsive.css">
+		<link rel="stylesheet" href="./css/login.css">
+		<title>Jello - Your one stop shop for all e-Giftcards...</title>
+		<link rel="icon" href="https://www.scdn.co/i/_global/favicon.png" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<!--Header-->
+		<header class="">
+			<div class="container">
+				<div class="header">
+					<span >
+						<a href="./index.html">
+							<button class="logo">Jello</button>
+						</a>
+					</span>
+					<nav class="navigation">
+						<ul>
+							<li>
+								<a class="navigation-link" href="">Twitter</a>
+							</li>	
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">Instagram</a>
+							</li>
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">WhatsApp</a>
+							</li>
+							<li class="vertical_separator"></li>
+							
+							<li>
+								<a class="navigation-link" href="">+256 -778756743</a>
+							</li>
+							
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">About</a>
+							</li>
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">Terms</a>
+							</li>
+							
+							
+						</ul>
+					</nav>
+					<div class="profile_icon-mobile">
+						
+						<div class="container-togg" onclick="toggler(this)">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</div>
+				</div>
+				<div id="mySidenav" class="sidenav">
+					<ul>
+						<li>
+							<a class="sidenav-link" href="index.html">Home</a>
+						</li>
+						<li class="h_separator"></li>
+						<li>
+							<a class="sidenav-link" href="">Twitter</a>
+						</li>
+						<li>
+							<a class="sidenav-link" href="">Instagram</a>
+						</li>
+						<li>
+							<a class="sidenav-link" href="">WhatsApp</a>
+						</li>
+						<li class="h_separator"></li>
+						<li>
+							<a class="sidenav-link" href="">About</a>
+						</li>
+						
+						<li>
+							<a class="sidenav-link" href="">Terms</a>
+						</li>
+						
+					</ul>
+				
+				</div>
+			</div>
+		</header>
+		<!--Header-->
+
+		<div class="home_main">
+			<div class="hm_gradient-1"></div>
+			<div class="hm_gradient-2"></div>
+			<div class="container hm_cont">
+            	</div>
+
+			<div class="container">
+				<div id="container">
+			
+					<div id="tabs">
+					    <p id="lt" class="tabs" onclick="loginTabFun()">Log in</p>
+					    <p id="rt" class="tabs" onclick="regTabFun()">Register</p>
+				
+					    <div id="clear"></div>
+					</div>
+					<br>
+				
+					<div id="cont">
+					    <div id="login" class="comm">
+						   <h3>Sign in</h3>
+				
+						   <input id="se" type="number" placeholder="Mobile Number" required/>
+						   <input id="sp" type="password" placeholder="Password" required/>
+						   <input type="submit" onclick="login()" value="LOGIN"/>
+				
+						   
+						   <button onclick="forTabFun()" class="forgot">
+							Forgot Password?
+						   </button>
+					    </div>
+					    <div id="register" class="comm">
+						   <h3>Register</h3>
+		
+						   <input id="re" type="text" placeholder="First Name" required/>
+						   <input id="re" type="text" placeholder="Last Name" required/>
+						   <input id="re" type="email" placeholder="Email" required/>
+						   <input id="re" type="email" placeholder="Mobile Number" required/>
+						   <input id="rp" type="password" placeholder="Password" required/>
+						   <input id="rrp" type="password" placeholder="Confirm Password" required/>
+						   <input type="submit" onclick="register()" value="REGISTER"/><br>
+						   <h4 class="reset">By Registering, you agree to our Terms & Conditions.</h4>
+				
+					    </div >
+					    <div id="forgot" class="comm">
+						<h3>Forgot Password</h3>
+					    
+					    <h4 class="reset1">A password reset link will be sent to the email provided below.</h4>
+					    <div>
+						   <input id="fe" type="email" placeholder="Email" required/>
+						   <input type="submit" onclick="forgot()" value="SEND LINK"/>
+					    </div>
+					    </div>
+					</div>
+				</div>
+			</div>
+			<br>
+        	</div>
+
+
+		<div id="opacity" class="opacity"></div>
+		<script src="./component/header.js"></script>
+		<script src="./component/footer.js"></script>
+		<script src="./js/main.js"></script>
+		<script src="./js/login.js"></script>
+	</body>
+</html>

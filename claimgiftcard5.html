@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/fonts.css" />
+		<link rel="stylesheet" href="./css/animation.css">
+		<link rel="stylesheet" href="./css/responsive.css">
+		<link rel="stylesheet" href="./css/giftcard.css">
+		<link rel="stylesheet" href="./css/confetti.css">
+		<link rel="stylesheet" href="./css/gift.css">
+		<title>Jello - Your one stop shop for all e-Giftcards...</title>
+		<link rel="icon" href="" />
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<!--Header-->
+		<header class="">
+			<div class="container">
+				<div class="header">
+					<span >
+						<a href="./index.html">
+							<div class="logo">Jello</div>
+						</a>
+					</span>
+					<nav class="navigation">
+						<ul>
+							<li>
+								<a class="navigation-link" href="index.html">Home</a>
+							</li>	
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">Twitter</a>
+							</li>	
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">Instagram</a>
+							</li>
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">WhatsApp</a>
+							</li>
+							<li class="vertical_separator"></li>
+							
+							<li>
+								<a class="navigation-link" href="">+256 -778756743</a>
+							</li>
+							
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">About</a>
+							</li>
+							<li class="vertical_separator"></li>
+							<li>
+								<a class="navigation-link" href="">Terms</a>
+							</li>
+							
+							
+						</ul>
+					</nav>
+					<div class="profile_icon-mobile">
+						
+						<div class="container-togg" onclick="toggler(this)">
+							<div class="bar1"></div>
+							<div class="bar2"></div>
+							<div class="bar3"></div>
+						</div>
+					</div>
+				</div>
+				<div id="mySidenav" class="sidenav">
+					<ul>
+						<li>
+							<a class="sidenav-link" href="index.html">Home</a>
+						</li>
+						<li class="h_separator"></li>
+						<li>
+							<a class="sidenav-link" href="">Twitter</a>
+						</li>
+						<li>
+							<a class="sidenav-link" href="">Instagram</a>
+						</li>
+						<li>
+							<a class="sidenav-link" href="">WhatsApp</a>
+						</li>
+						<li class="h_separator"></li>
+						<li>
+							<a class="sidenav-link" href="claimgiftcard2.html">GiftCard Page</a>
+						</li>
+						<li class="h_separator"></li>
+						<li>
+							<a class="sidenav-link" href="">About</a>
+						</li>
+						
+						<li>
+							<a class="sidenav-link" href="">Terms</a>
+						</li>
+						
+					</ul>
+				
+				</div>
+			</div>
+		</header>
+		<!--Header-->
+
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+		<img src="./assets/img5.jpeg" alt="" class="balloon">
+
+		<div class="home_main">
+			<span class="home_cards1">
+				<div class="hm_card opacity_anim">
+					<br>
+					<div class="box">
+						<img src="./assets/img5.jpeg" alt="">
+					</div>
+					<div class="box_details">	
+						<p class="play-icon">Just For You</p>
+						<h4>You have received a Just For You GiftCard from <br>David Junior</h4>
+						<button id="button" class="ready" onclick="clickButton();">
+  
+							<div class="message submitMessage">
+							  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12.2">
+							    <polyline stroke="currentColor" points="2,7.1 6.5,11.1 11,7.1 "/>
+							    <line stroke="currentColor" x1="6.5" y1="1.2" x2="6.5" y2="10.3"/>
+							  </svg> <span class="button-text">CLAIM GIFT CARD</span>
+							</div>
+							
+							<div class="message loadingMessage">
+							  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 17">
+							    <circle class="loadingCircle" cx="2.2" cy="10" r="1.6"/>
+							    <circle class="loadingCircle" cx="9.5" cy="10" r="1.6"/>
+							    <circle class="loadingCircle" cx="16.8" cy="10" r="1.6"/>
+							  </svg>
+							</div>
+							
+							<div class="message successMessage">
+							  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 11">
+							    <polyline stroke="currentColor" points="1.4,5.8 5.1,9.5 11.6,2.1 "/>
+							  </svg> <span class="button-text">SUCCESSFULLY CLAIMED</span>
+							</div>
+						</button>
+						
+						   
+						<canvas id="canvas"></canvas>
+						
+					</div>
+				</div>
+			</span>	
+          </div>
+
+		<div id="opacity" class="opacity"></div>
+		<script src="./component/header.js"></script>
+		<script src="./component/footer.js"></script>
+		<script src="./js/main.js"></script>
+		<script src="./js/confetti.js"></script>
+	</body>
+</html>

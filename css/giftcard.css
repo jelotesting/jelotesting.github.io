@@ -1,0 +1,263 @@
+
+body::-webkit-scrollbar {
+	width: 7px;
+	background-color: #f5f5f5;
+	border-radius: 0px;
+	display: none;
+   }
+
+   .home_cards1{
+	display: block;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border-radius: 10px;
+ }
+ .hm_card{
+	position: relative;
+	cursor: pointer;
+	border-radius: 20px;
+	height: 71vh;
+	background-color: #061019;
+	border: none;
+ }
+ .box img {
+	width: 90%;
+	height: 190px;
+	object-fit: cover;
+	border-radius: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	
+ }
+ .box_details{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:flex-start;
+	transition: all 0.2s ease-in-out;
+	background: transparent;
+	opacity: 1;
+ }
+
+ 
+.box_details:hover{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content:flex-start;
+	transition: all 0.2s ease-in-out;
+	background: rgba(0, 0, 0, 0.2);
+	opacity: 1;
+	border-radius: 10px;
+ }
+
+ .play-icon{
+	background-color: #fff;
+	border-radius: 20px;
+	padding: 6px 20px 6px;
+	color: #000;
+	font-size: 18px;
+	font-weight: 600;
+	border: 1px solid #00000060;
+	margin-top: 48%;
+ }
+
+ .hm_card:hover .box_details{
+	opacity: 1;
+ }
+
+ h4{
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: initial;
+	font-weight: 500;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-left: 7px;
+	padding-right: 7px;
+	text-align: center;
+ }
+
+ 
+ h3{
+	font-size: 22px;
+	color: #9333EA;
+ }
+
+ input{
+	display: block;
+	width: 90%;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 1.0em;
+	color: #fff;
+	border: 2px solid #ffffff60;
+	margin-left: 0px;
+	border-radius: 5px;
+	background-color: transparent;
+	padding: 10px 20px;
+}
+
+.submit {
+	width: 90%;
+	margin-top: 10px;
+	padding: 0px;
+	font-size: 1.0em;
+	color: #fff;
+	border: none;
+	margin-left: 0px;
+	border-radius: 5px;
+	background-color: #9333EA;
+	padding: 10px 0px;
+	padding-left: 120px;
+}
+
+
+
+
+
+ @media screen and (max-width: 576px) {
+	.home_cards1{
+		display: block;
+		padding-left: 0px;
+		padding-right: 0px;
+		margin: 0px;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		border-radius: 10px;
+	 }
+	 .hm_card{
+		position: relative;
+		cursor: pointer;
+		border-radius: 20px;
+		height: 71vh;
+		background-color: #061019;
+		border: none;
+	 }
+	 .box img {
+		width: 90%;
+		height: 190px;
+		object-fit: cover;
+		border-radius: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		
+	 }
+	 .box_details{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content:flex-start;
+		transition: all 0.2s ease-in-out;
+		background: transparent;
+		opacity: 1;
+	 }
+	
+	 
+	.box_details:hover{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content:flex-start;
+		transition: all 0.2s ease-in-out;
+		background: rgba(0, 0, 0, 0.2);
+		opacity: 1;
+		border-radius: 10px;
+	 }
+	
+	 .play-icon{
+		background-color: #fff;
+		border-radius: 20px;
+		padding: 6px 20px 6px;
+		color: #000;
+		font-size: 18px;
+		font-weight: 600;
+		border: 1px solid #00000060;
+		margin-top: 58%;
+	 }
+	
+	 .hm_card:hover .box_details{
+		opacity: 1;
+	 }
+	
+	 h4{
+		font-size: 18px;
+		color: #FFFFFF;
+		text-transform: initial;
+		font-weight: 500;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		padding-left: 7px;
+		padding-right: 7px;
+		text-align: center;
+	 }
+	
+	 
+	 h3{
+		font-size: 22px;
+		color: #9333EA;
+	 }
+	
+	 input{
+		display: block;
+		width: 90%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+		font-size: 1.0em;
+		color: #fff;
+		border: 2px solid #ffffff60;
+		margin-left: 0px;
+		border-radius: 5px;
+		background-color: transparent;
+		padding: 10px 20px;
+	}
+	
+	.submit {
+		width: 90%;
+		margin-top: 10px;
+		padding: 0px;
+		font-size: 1.0em;
+		color: #fff;
+		border: none;
+		margin-left: 0px;
+		border-radius: 5px;
+		background-color: #9333EA;
+		padding: 10px 0px;
+		padding-left: 120px;
+	}
+	
+
+ }
