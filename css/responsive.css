@@ -432,8 +432,8 @@
         width: 26px;
         height: 32px;
         padding-top: 10px;
-        padding-bottom: 40px;
-        display: none;
+        padding-bottom: 20px;
+        display: inline-block;
     }
     .home_links {
         padding-top: 30px;
