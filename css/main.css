@@ -380,11 +380,10 @@ header {
     line-height: 1;
     border-radius: 50px;
     padding: 19px 56px 21px;
-    /* color: var(--white); */
     background-color: #ffffff;
     color: #000;
     transition-duration: .3s;
-    border-width: 0;
+    border: 2px solid #ffffff;
     letter-spacing: 1px;
     min-width: 160px;
     text-transform: uppercase;
@@ -394,17 +393,18 @@ header {
     cursor: pointer;
 }
 
-.more_btn{
+.green_btn:hover{
     display: inline-block;
-    margin: 0px 0;
+    margin: 32px 0;
     font-size: 16px;
     line-height: 1;
     border-radius: 50px;
-    padding: 19px 35px 21px;
+    padding: 19px 56px 21px;
     background-color: transparent;
+    border: 2px solid #ffffff;
     color: #fff;
     transition-duration: .3s;
-    border-width: 0;
+    /* border-width: 0; */
     letter-spacing: 1px;
     min-width: 160px;
     text-transform: uppercase;
@@ -412,11 +412,48 @@ header {
     border-radius: 50px;
     font-weight: 700;
     cursor: pointer;
-    border: 2px solid #fff;
 }
-.more_btn:hover{
-    background-color: #9333EA;
-    color:#fff;
+
+.how_btn{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 19px 73px 21px;
+    background-color: transparent;
+    color: #fff;
+    transition-duration: .3s;
+    border: 2px solid #ffffff;
+    letter-spacing: 1px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
+.how_btn:hover{
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1;
+    border-radius: 50px;
+    padding: 19px 73px 21px;
+    background-color: #ffffff;
+    color: #000000;
+    transition-duration: .3s;
+    border: 2px solid #ffffff;
+    letter-spacing: 1px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    border-radius: 50px;
+    font-weight: 700;
+    cursor: pointer;
 }
 
 
@@ -477,13 +514,12 @@ header {
 .play-icon{
     background-color: #fff;
     border-radius: 20px;
-    padding: 6px 20px 6px;
+    padding: 6px;
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     border: 1px solid #00000060;
 }
-
 
 .arrow-scroll-down{
     width: 32px;
@@ -505,29 +541,30 @@ header {
     /* background-image: linear-gradient(90deg, #2c5e92 0%, #552f6d 80%); */
 }
 .last_listen .container{
-    padding-top: 10px;
+    padding-top: 0px;
     padding-bottom: 10px;
     /* background-color: #061019; */
     border-radius: 10px;
 }
 .last_listen .ll_row{
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 30% 30% 30%;
     justify-content: space-between;
-    padding-left: 15px;
+    padding-left: 10px;
     padding-right: 10px;
     border-radius: 10px;
     background-color: transparent;
+    margin-top: 5px;
 }
 .last_listen .ll_card{
     display: grid;
     grid-template-columns: 100% 100%;
     grid-template-rows: 250px;
-    padding-right: 90px;
+    padding: 2px;
     position: relative;
-    margin: 10px;
-    border-radius: 0px;
-    background-color: #ffffff10;
+    margin: 4px;
+    border-radius: 10px;
+    background-color: transparent;
 }
 .last_listen .ll_card img{
     width: 100%;

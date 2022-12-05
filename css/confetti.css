@@ -52,7 +52,7 @@ button {
   font-size: 18px;
   font-weight: 500;
   height: 50px;
-  left: 6%;
+  left: 12%;
   margin-top: 50px;
   outline: none;
   overflow: hidden;
@@ -60,7 +60,7 @@ button {
   position: relative;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 340px;
+  width: 380px;
   -webkit-tap-highlight-color: transparent;
   z-index: 1;
   border-radius: 6px;
@@ -249,7 +249,7 @@ button.complete .successMessage svg {
 		height: 50px;
 		left: 50%;
 		margin-left: 0px;
-    margin-top: 30px;
+    margin-top: 60px;
 		outline: none;
 		overflow: hidden;
 		padding: 0 10px;

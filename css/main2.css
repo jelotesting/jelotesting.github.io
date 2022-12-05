@@ -518,7 +518,7 @@
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content:flex-end;
+	justify-content:space-between;
 	transition: all 0.2s ease-in-out;
 	background: rgba(0, 0, 0, 0.5);
 	opacity: 1;
@@ -532,6 +532,7 @@
 	font-weight: 600;
 	border: 1px solid #00000060;
  }
+
  
  
  .arrow-scroll-down{
